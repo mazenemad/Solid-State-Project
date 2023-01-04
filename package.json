@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "@types/three": "^0.147.1",
+    "nuxt": "3.0.0",
+    "three": "^0.148.0"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "vercel": "^28.10.1"
+  }
+}
